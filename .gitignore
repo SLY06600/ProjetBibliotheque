@@ -1,3 +1,17 @@
 .qodo
 .vscode/
 
+# Ignore bin and target folders (compiled Java files)
+bin/
+target/
+
+# Ignore IDE specific files (if you're using IntelliJ or Eclipse)
+.idea/
+*.iml
+*.classpath
+*.project
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
